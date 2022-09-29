@@ -27,14 +27,6 @@
 body {
   
   background-image:url("./夜市.jpg" );
-  width:100%;
-   height:0;
-  padding-bottom: 100%;
-  overflow:hidden;
-  background-position: center center;
-  background-repeat: no-repeat;
-  -webkit-background-size:cover;
-  -moz-background-size:cover;
   background-size:cover;
   
 }
