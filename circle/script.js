@@ -74,6 +74,7 @@ $(".turntable_btn").on("click", function(){
         alert('就決定吃：'+ prize +'了吧!!');
         
         window.open(' https://www.google.com.tw/maps/search/'+ prize);
+        setTimeout(window.open(url), 500);
     }, 4200);
     
 });
