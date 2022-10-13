@@ -73,8 +73,8 @@ $(".turntable_btn").on("click", function(){
         var eat=String(prize);
         alert('就決定吃：'+ prize +'了吧!!');
         
-        window.open(' https://www.google.com.tw/maps/search/'+ prize);
-        setTimeout(window.open(url), 500);
+        var newWindow = window.open(' https://www.google.com.tw/maps/search/'+ prize);
+        newWindow.location.href = fileUrl
     }, 4200);
     
 });
